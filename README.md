@@ -1,13 +1,6 @@
 
-<h1 align="center"> On the relation of skin stretch and finger joint angle evolution in human hand grasping tasks</h1>
+<h1 align="center"> Augmenting Natural Skin Stretch During Active Finger Motion Reshapes Hand Proprioception </h1>
 
- <p align="center">
-
-  <img width="400" src="https://github.com/EleFontana/SkinStretchEval/blob/main/media/cp_logo.png" alt="cp_logo">
-  <img width="300" src="https://github.com/EleFontana/SkinStretchEval/blob/main/media/unipi_logo.png" alt="unipi_logo_nero">
-  <img width="300" src="https://github.com/EleFontana/SkinStretchEval/blob/main/media/Logo_DII.jpg" alt="dii_logo"> 
-  <img width="300" src="https://github.com/EleFontana/SkinStretchEval/blob/main/media/iit_logo.jpg" alt="iit_logo"> 
-</p>
 
 # Abstract
 There is strong evidence that skin stretch at joint level contributes to proprioception, i.e., the inner perceptual representation of body position and motion. Considering the dorsum of the hand and fingers, state-of-the art studies focused on the illusory movement elicited by skin-stretch stimuli, when no actual motion was performed, often combined with local anesthesia to isolate cutaneous cues. Of note, these stimuli were typically delivered in a qualitative manner, leaving unclear how controlled, augmented skin deformation influences proprioceptive processing during active movement. In this study, we addressed this question by applying precisely scaled skin-stretch stimuli across the proximal interphalangeal (PIP) joint of the index finger, amplifying skin deformation patterns naturally occurring during finger flexion. Participants performed an active hand position-matching, with their bare hand and while wearing a custom-built, non-invasive tactile wearable device that can deliver controlled skin-stretch stimulation across PIP. While no significant differences in hand position were observed between the bare hand case and the condition where the device was worn but deactivated, augmenting the natural skin stretch consistently shifted the perceived finger posture toward more extended configurations. This finding demonstrates that cutaneous deformation can reshape proprioceptive estimates even when muscle spindles and efferent signals are fully engaged, revealing a continuous integration of tactile and muscular-skeletal cues in kinesthetic perception. These results advance our understanding of skin stretch contribution to proprioceptive processing in active tasks, opening interesting scenarios for haptics-engaged human machine interaction and extended reality. 
