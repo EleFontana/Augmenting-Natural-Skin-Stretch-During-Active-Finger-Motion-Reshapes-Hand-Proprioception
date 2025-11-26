@@ -47,16 +47,12 @@ This dataset comprises measurements from 12 participants performing the hand mat
 # Included Analysis 
 The dataset includes LMManalysis.R, which performs statistical analysis of the plateau angle of the PIP joint. In brief, the analysis comprises:
 1. Plateau extraction: For each waveform, the region surrounding the peak (plateau) where the PIP angle stabilizes is identified. The function extract_plateau() calculates the mean plateau angle, start and end indices, and plateau length.
-2. Data aggregation: Plateau measurements are collected into a single tibble with columns: Soggetto (participant), Condizione (condition), Cilindro (cylinder), AngoloPlateau (plateau angle), i_start, i_end, plateau_len.
-3. Linear Mixed Model (LMM): A linear mixed-effects model lmer(AngoloPlateau ~ Condizione + Cilindro + (1|Soggetto)) evaluates the effects of experimental condition and cylinder diameter on PIP plateau angle, accounting for inter-subject variability as a random effect.
-4. Post-hoc pairwise comparisons: Pairwise contrasts between conditions (A vs B, A vs C, B vs C) are computed using emmeans.
+2. Data aggregation: Plateau measurements are collected into a single tibble with columns: Subject, Condition, Cylinder, PlateauAngle, i_start, i_end, plateau_len.
+3. Linear Mixed Model (LMM): A linear mixed-effects model lmer(PlateauAngle ~ Condition + Cylinder + (1|Subject)) evaluates the effects of experimental condition and cylinder diameter on PIP plateau angle, accounting for inter-subject variability as a random effect.
+4. Post-hoc pairwise comparisons: Pairwise contrasts between conditions (DevOff vs BareHand, DevOff vs DevOn, BareHand vs DevOn) are computed using emmeans.
 5. Visualization: Boxplots and bar plots illustrate the distribution of plateau angles across conditions and cylinder diameters.
 Analyses and figures can be reproduced by running LMManalysis.R in R with the following packages: R.matlab, dplyr, lme4, emmeans, and ggplot2.
 
-
-<!-- # Publication -->
-<!-- To know more about the method, you can refer to:
-E. Fontana, V. Catrambone, M. G. Catalano, A. Bicchi, M. Bianchi, "On the Relation of Skin Stretch and Finger Joint Angle Evolution in Human Hand Grasping Tasks", Eurohaptics 2024 Conference, Lille, France, 2024, pp. xxx-xxx, doi: xxxxx. -->
 
 
 # Acknowledgment
