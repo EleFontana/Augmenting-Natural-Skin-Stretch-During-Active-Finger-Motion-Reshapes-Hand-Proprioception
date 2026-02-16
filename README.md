@@ -39,13 +39,13 @@ The dataset includes measurements from 12 participants performing the hand-match
 
 * **Columns (4)** - Cylinder diameters:
 
-    * *D1*: 45mm;
+    * *C1*: 45mm;
 
-    * *D2*: 60mm;
+    * *C2*: 60mm;
 
-    * *D3*: 75mm;
+    * *C3*: 75mm;
 
-    * *D4*: 90mm.
+    * *C4*: 90mm.
 
 
 # Included Analysis 
